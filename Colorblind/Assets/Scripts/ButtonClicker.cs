@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class ButtonClicker : MonoBehaviour
 {
+    private GameObject buttonObjects;
+    private ButtonActivate buttonActive;
+    private string buttonName;
     // Start is called before the first frame update
     void Start()
     {
-        
+        buttonObjects = GameObject.Find("HiddenObjects");
+        buttonActive = buttonObjects.GetComponent<ButtonActivate>();
     }
 
     // Update is called once per frame
@@ -23,12 +27,14 @@ public class ButtonClicker : MonoBehaviour
                 if(hit.transform.tag == "Button")
                 {
                    Debug.Log("Hit" + hit.transform.gameObject.name);
-                   GameObject button = hit.transform.gameObject;
-                   
+                   buttonName = hit.transform.gameObject.name;
+
+                   buttonActive.Activate(buttonName);
                 }
                 
                 
             }
         }
     }
+
 }

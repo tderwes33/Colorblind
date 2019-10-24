@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 7537455598534537414}
   - component: {fileID: 6854005669232162361}
   - component: {fileID: 581352758864679914}
+  - component: {fileID: 8604575236603095454}
   m_Layer: 0
   m_Name: BlueButton1
   m_TagString: Button
@@ -126,6 +127,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8604575236603095454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223125694481919675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57b6d663f159b4d96ad0ae093f4758ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2608648253833466534
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,6 +182,7 @@ GameObject:
   - component: {fileID: 8570738173785741208}
   - component: {fileID: 895802582936660951}
   - component: {fileID: 1122756846135359768}
+  - component: {fileID: 4570344132409994455}
   m_Layer: 0
   m_Name: BlueButton2
   m_TagString: Button
@@ -252,6 +266,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4570344132409994455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3163249123809791647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57b6d663f159b4d96ad0ae093f4758ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4773785033084486109
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,6 +322,7 @@ GameObject:
   - component: {fileID: 3433151182141425749}
   - component: {fileID: 6766303243783681136}
   - component: {fileID: 6044211319334259009}
+  - component: {fileID: 2029534151691315848}
   m_Layer: 0
   m_Name: RedButton2
   m_TagString: Button
@@ -393,6 +420,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
+--- !u!114 &2029534151691315848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5870895119115688006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57b6d663f159b4d96ad0ae093f4758ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7701650613347705101
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,6 +444,7 @@ GameObject:
   - component: {fileID: 367577298863404604}
   - component: {fileID: 5799219566250958931}
   - component: {fileID: 476573870719698512}
+  - component: {fileID: 4938341691865479117}
   m_Layer: 0
   m_Name: RedButton1
   m_TagString: Button
@@ -502,3 +542,15 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
+--- !u!114 &4938341691865479117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701650613347705101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57b6d663f159b4d96ad0ae093f4758ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
