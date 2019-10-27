@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Button
   - Pickup
+  - Highlight
+  - Interactable
   layers:
   - Default
   - TransparentFX

@@ -20,16 +20,17 @@ public class PlayerCameraLook : MonoBehaviour
 
     private void LockCursor()
     {
-        
+
         //Cursor.lockMode = Cursor.Locked;
         Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.None;
         
     }
 
     // Start is called before the first frame update
     void Start()
     {
-       
+        
     }
 
     // Update is called once per frame
